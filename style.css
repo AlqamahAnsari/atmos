@@ -1,0 +1,145 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #222;
+  --card-bg: #fff;
+  --accent-color: #0077ff;
+  --suggestion-bg: #e0e0e0;
+}
+
+body.dark {
+  --bg-color: #1c1c1c;
+  --text-color: #f0f0f0;
+  --card-bg: #2c2c2c;
+  --accent-color: #66aaff;
+  --suggestion-bg: #333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#toggleTheme {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--card-bg);
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#cityInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.7rem;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid var(--accent-color);
+  border-radius: 5px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+#suggestions {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.suggestion-item {
+  background-color: var(--suggestion-bg);
+  padding: 0.5rem;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+#searchBtn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem 1.5rem;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+  background-color: #005dc1;
+}
+
+#loading {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#weatherDisplay {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+#weatherDisplay img {
+  width: 64px;
+  height: 64px;
+}
+
+#forecastDisplay {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.forecast-card {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 140px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.forecast-card:hover {
+  transform: scale(1.05);
+}
+
+.forecast-card img {
+  width: 48px;
+  height: 48px;
+}
+
+#errorMessage {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
