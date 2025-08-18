@@ -58,7 +58,7 @@ weather-dashboard/
 
 
 ## Live Demo
-[Live Demo](https://your-username.github.io/weather-dashboard/) *(Add your link here once deployed)*
+[Live Demo](http://alqamahansari.github.io/weather-dashboard/)
 
 
 ## Future Improvements
