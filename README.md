@@ -28,7 +28,7 @@ It uses the [WeatherAPI](https://www.weatherapi.com/) to fetch **current weather
 
 ## Project Structure
 ```
-weather-dashboard/
+atmos/
 │── index.html         # Main HTML file
 │── style.css          # Styling (light/dark themes)
 │── main.js            # Core logic
@@ -58,7 +58,7 @@ weather-dashboard/
 
 
 ## Live Demo
-[Live Demo](http://alqamahansari.github.io/weather-dashboard/)
+[Live Demo](http://alqamahansari.github.io/atmos/)
 
 
 ## Future Improvements
