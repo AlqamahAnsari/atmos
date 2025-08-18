@@ -42,7 +42,7 @@ weather-dashboard/
 ## Setup & Installation
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/alqamahansari/weather-dashboard.git
+   git clone https://github.com/alqamahansari/atmos.git
    cd weather-dashboard
    ```
 
