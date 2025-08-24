@@ -3,7 +3,8 @@
 A simple yet powerful **Atmos** built with **HTML, CSS, and JavaScript**.  
 It uses the [WeatherAPI](https://www.weatherapi.com/) to fetch **current weather**, **5-day forecast**, and **city search suggestions** with a responsive UI and dark/light mode support.
 
-<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/b39c19ef-0894-4bc6-9d6f-5ca0a2c92723" />
+<img width="1854" height="920" alt="image" src="https://github.com/user-attachments/assets/c64c4ad4-9c1f-44d4-811e-ea562b1a418c" />
+
 
 
 
